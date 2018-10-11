@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="descricao"
+            android:layout_marginLeft="15px"
+            android:outlineProvider="none"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/descricaoList"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="valor"
+            android:layout_marginRight="15px"
+            android:layout_alignParentRight="true"
+            android:id="@+id/valorList"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
